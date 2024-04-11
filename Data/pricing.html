@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="apple-icon-76x76.png">
+    <link rel="stylesheet" href="./pricing.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".plan").hover(
+                function () {
+                    $(this).addClass("hover");
+                },
+                function () {
+                    $(this).removeClass("hover");
+                }
+            );
+
+            $(".plan-select a").click(function (e) {
+                if (!$(this).closest('.plan').hasClass('featured')) {
+                    e.preventDefault();
+                    alert("Please select the Professional plan , all the other plans are Nig**rs.");
+                }
+            });
+        });
+    </script>
+    <title>Pricing</title>
+</head>
+
+<body>
+    <div class="snip1517">
+        <div class="plan">
+            <header>
+                <h4 class="plan-title">
+                    Starter
+                </h4>
+                <div class="plan-cost"><span class="plan-price">$19</span><span class="plan-type">/month</span></div>
+            </header>
+            <ul class="plan-features">
+                <br>
+                <li><i class="ion-android-remove"> </i>GST Tax Filings</li>
+                <li><i class="ion-android-remove"> </i>PLC & Corporate Advisory</li>
+                <li><i class="ion-android-remove"> </i>Rectification Services</li>
+                <li><i class="ion-android-remove"> </i>Weekly Tech Support</li>
+                <li><i class="ion-android-remove"> </i>Expert : Jatan Patel</li>
+            </ul>
+            <div class="plan-select"><a href="">Select Plan</a></div>
+        </div>
+        <div class="plan">
+            <header>
+                <h4 class="plan-title">
+                    Basic
+                </h4>
+                <div class="plan-cost"><span class="plan-price">$29</span><span class="plan-type">/month</span></div>
+            </header>
+            <ul class="plan-features">
+                <br>
+                <li><i class="ion-android-remove"> </i>GST Tax Filings</li>
+                <li><i class="ion-android-remove"> </i>PLC & Corporate Advisory</li>
+                <li><i class="ion-android-remove"> </i>Interim Reports</li>
+                <li><i class="ion-android-remove"> </i>24/7 Tech Support</li>
+                <li><i class="ion-android-remove"> </i>Expert : Yash Patel</li>
+            </ul>
+            <div class="plan-select"><a href="">Select Plan</a></div>
+        </div>
+        <div class="plan featured">
+            <header>
+                <h4 class="plan-title">
+                    Professional
+                </h4>
+                <div class="plan-cost"><span class="plan-price">$49</span><span class="plan-type">/month</span></div>
+            </header>
+            <ul class="plan-features">
+                <li><i class="ion-android-remove"> </i>Assisted GST Tax Filings</li>
+                <li><i class="ion-android-remove"> </i>Income Tax Planning</li>
+                <li><i class="ion-android-remove"> </i>PLC & Corporate Advisory</li>
+                <li><i class="ion-android-remove"> </i>Rectification Services</li>
+                <li><i class="ion-android-remove"> </i>Interim Reports</li>
+                <li><i class="ion-android-remove"> </i>24/7 Tech Support</li>
+                <li><i class="ion-android-remove"> </i>Expert : Kaustubh Shinde</li>
+            </ul>
+            <div class="plan-select"><a href="">Select Plan</a></div>
+        </div>
+        <div class="plan">
+            <header>
+                <h4 class="plan-title">
+                    Ultra
+                </h4>
+                <div class="plan-cost"><span class="plan-price">$99</span><span class="plan-type">/month</span></div>
+            </header>
+            <ul class="plan-features">
+                <li><i class="ion-android-remove"> </i>GST Insights </li>
+                <li><i class="ion-android-remove"> </i>ITR Filings</li>
+                <li><i class="ion-android-remove"> </i>Digital Signatures(Class 2 & 3)</li>
+                <li><i class="ion-android-remove"> </i>Form And Reports</li>
+                <li><i class="ion-android-remove"> </i>24/7 Tech Support</li>
+                <li><i class="ion-android-remove"> </i>Expert : Anshiet Upadhyay</li>
+            </ul>
+            <div class="plan-select"><a href="">Select Plan</a></div>
+        </div>
+    </div>
+</body>
+
+</html>

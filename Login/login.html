@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+  <div class="wrapper">
+    <form onsubmit="return validateForm()">
+      <h2>Login</h2>
+      <div class="input-field">
+        <input type="text" id="email" required>
+        <label>Enter your email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" id="password" required>
+        <label>Enter your password</label>
+      </div>
+      <div class="forget">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          <p>Remember me</p>
+        </label>
+        <a href="#" id="forgotPasswordLink">Forgot password?</a>
+      </div>
+      <button type="submit">Log In</button>
+      <div class="register">
+      </div>
+    </form>
+  </div>
+
+  <script>
+    function validateForm() {
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+  
+      if (email === "yp9930984330@gmail.com" && password === "yashnigga") {
+        window.location.href = "yash.html";
+        return false;
+      } else if (email === "mishrayash474@gmail.com" && password === "12345678") {
+        window.location.href = "log1.html";
+        return false;
+        
+      } else if (email === "kss@gmail.com" && password === "kss12345") {
+        window.location.href = "ks.html";
+        return false;
+      } else {
+        alert("Invalid email or password");
+        return false;
+      }
+    }
+    document.getElementById("forgotPasswordLink").addEventListener("click", function(event) {
+      event.preventDefault();
+      alert("Your fault ni*ga. Can't even remember a f**king 8 letter password.\nAsk the chatbot he can help you with password reset process.");
+    });
+  </script>
+</body>
+</html>
