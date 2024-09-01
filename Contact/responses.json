@@ -177,5 +177,10 @@
     "exports": "Export businesses are eligible for a refund of GST paid on inputs and input services under the GST refund scheme. Exports are considered zero-rated supplies, meaning they are taxed at 0% under GST.",
     "real estate": "GST has impacted the real estate sector by introducing tax on under-construction properties and input services related to construction. It has led to changes in the pricing and taxation structure of real estate transactions.",
     "thresholds": "As of now, businesses with an aggregate turnover of up to ₹40 lakhs (₹20 lakhs for special category states) are exempt from GST registration and filing requirements. Threshold limits may vary for specific types of businesses.",
-    "exemptions": "Certain industries such as healthcare, education, and agriculture are eligible for exemptions or special provisions under GST. These include reduced tax rates, exemptions on specific goods and services, and special refund schemes."
+    "exemptions": "Certain industries such as healthcare, education, and agriculture are eligible for exemptions or special provisions under GST. These include reduced tax rates, exemptions on specific goods and services, and special refund schemes.",
+  "Rate Information": "I can provide details on the rates applicable to various goods and services. Rates typically range from 0% to 28% depending on the item or service.",
+  "Calculator": "I can help you calculate taxes on your transactions. Just provide me with the value of your goods or services and the applicable rate.",
+  "Filing Assistance": "I can guide you through the tax filing process, including registration, return submission, and compliance requirements.",
+  "Updates": "I can provide the latest updates on tax regulations, changes in rates, and any recent announcements or notifications.",
+  "Documents": "I can assist you with information on the necessary documents for registration, filing, and compliance, including invoices, returns, and receipts."
 }
