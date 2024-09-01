@@ -150,6 +150,7 @@
     "invoice": "A invoice is a document that includes all the details of a transaction, such as the GSTIN, tax amounts, and more.",
     "Pes Boys":"40% 🟢\n40%🔴\n20%⚪",
     "pes":"40% 🟢\n40%🔴\n20%⚪",
+    "efootball":"40% 🟢\n40%🔴\n20%⚪",
     "filing software": "Filing software can streamline the process of filing returns and ensure accuracy in compliance.",
     "refund": "You can claim a refund if you've paid excess taxes or if you are eligible for a refund based on certain criteria.",
     "export": "Applies to the export of goods and services, but exports are generally zero-rated, which means no taxes are collected.",
@@ -166,5 +167,15 @@
     "software services": "The rate on software services can vary based on factors such as software type and usage.",
     "transportation": "The rate on transportation services can differ based on the mode of transport and other factors.",
     "construction": "The construction industry has specific rules, including those related to under-construction properties.",
-    "exports and SEZ": "Special Economic Zones (SEZ) have unique rules and benefits related to exports."
+    "exports and SEZ": "Special Economic Zones (SEZ) have unique rules and benefits related to exports.",
+    "rate": "As of today, the GST rate on essential goods is 5%. However, rates may vary for specific items, so it's essential to check the latest updates from the GST portal or government notifications.",
+    "changes": "Recent changes in the GST regime include updates to input tax credit rules, changes in compliance requirements for e-commerce businesses, and amendments to tax rates on various goods and services.",
+    "compliance": "E-commerce businesses are now required to comply with specific GST regulations such as collecting and remitting tax at the time of sale, maintaining detailed records, and filing returns regularly.",
+    "penalties": "Penalties for late filing of GST returns include a late fee of up to ₹200 per day of delay, along with interest on the amount of tax due. Penalties may vary based on the type of return and duration of delay.",
+    "impact": "GST has simplified tax compliance for small businesses by replacing multiple indirect taxes with a single tax. However, it has also introduced new challenges such as maintaining proper records and filing returns regularly.",
+    "ITC": "The new rules for ITC include restrictions on claiming credit for invoices not uploaded by suppliers, changes in the eligibility criteria for claiming ITC, and the need to match invoices for seamless credit claims.",
+    "exports": "Export businesses are eligible for a refund of GST paid on inputs and input services under the GST refund scheme. Exports are considered zero-rated supplies, meaning they are taxed at 0% under GST.",
+    "real estate": "GST has impacted the real estate sector by introducing tax on under-construction properties and input services related to construction. It has led to changes in the pricing and taxation structure of real estate transactions.",
+    "thresholds": "As of now, businesses with an aggregate turnover of up to ₹40 lakhs (₹20 lakhs for special category states) are exempt from GST registration and filing requirements. Threshold limits may vary for specific types of businesses.",
+    "exemptions": "Certain industries such as healthcare, education, and agriculture are eligible for exemptions or special provisions under GST. These include reduced tax rates, exemptions on specific goods and services, and special refund schemes."
 }
