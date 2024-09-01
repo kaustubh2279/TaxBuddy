@@ -11,7 +11,7 @@ let keywordResponses = {};
 
 const loadResponses = async () => {
     try {
-        const response = await fetch("responses.json");
+        const response = await fetch("Contact/responses.json");
         keywordResponses = await response.json();
     } catch (error) {
         console.error("Failed to load responses from the JSON file: " + error.message);
